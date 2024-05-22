@@ -1,0 +1,315 @@
+/* Navigation Bar Section */
+
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  transition: ease-in-out 0.3s;
+  padding: 5px 0;
+  margin-top: 0;
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  backdrop-filter: saturate(180%) blur(10px);
+  
+}
+
+[aria-controls="navbarDropdown"] {
+  display: none;
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand {
+  width: 100px;
+  min-width: 100px;
+  transition: ease-in-out 0.3s;
+  margin-right: auto;
+}
+
+.navbar-nav li a { 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.nav-link a {
+  color: #292929;
+  font-size: 0.8125rem;
+  text-transform: uppercase;
+  margin-right: 2.5rem;
+  line-height: 1.25rem;
+  width: 100%;
+  text-wrap: nowrap;
+  letter-spacing: 2px;
+}
+
+.nav-link .first:hover {
+  color: var(--red);
+  text-shadow: 2px 2px 5px silver;
+}
+
+/* Hero Section */
+
+.bg-header .container {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bg-header .hero-wrapper { 
+  width: 800px; 
+  margin: auto; 
+  text-align: center;
+}
+
+.bg-header h1 {
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  color: blue;
+}
+
+.hero-header i { color: whitesmoke;}
+.hero-header .superPromocion { text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); }
+
+ .bg-header .brandWebsite {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 45px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.35);
+}
+
+ .bg-header .brand { color: var(--red);}
+
+#message {
+  color: var(--red);
+  border: 2px solid var(--red);
+  margin-left: 10px;
+  background: rgba(255, 255, 255, 0.2);
+ }
+
+ .bg-header .container img { 
+  width: 500px; 
+  height: 500px;
+  margin: 0 0 0 0;
+}
+
+.bg-header .hero-wrapper .precioSoles {
+  width: 150px;
+  height: 150px;
+  margin: 0px 0 0 0;
+} 
+
+/* 1 Shadow Section */
+
+.firstShadow {
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 100%, rgba(255, 255, 255, 0.6) 100%), url('/Assets/background\ 3.jpg') center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 30px 20px;
+  margin: 70px 0 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.firstShadow img { width: 400px;}
+
+
+/* Servicios Section */
+
+.servicios { padding: 100px 0 0 0; }
+.servicios img { width: 300px;;}
+
+.servicios h3 {
+  color: var(--red);
+  margin: 0 0 10px 0;
+}
+
+.servicios h2 { color: var(--blue);}
+
+.servicios .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 0 0 0;
+}
+
+.servicios .container .listaServicios {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.servicios .container .listaServicios .servicioDetail {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.servicios .container .listaServicios .servicioDetail h2 { color: rgb(30, 30, 30); }
+.servicios .container .listaServicios .servicioDetail h2 i { color: var(--blue); }
+.servicios .container .listaServicios .servicioDetail .precio { color: var(--red); }
+
+/* 2 shadow Section */
+
+.shadow {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url('/Assets/flores\ wallpaper.jpg') center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 80px 100px;
+  margin: 70px 0 0 0;
+}
+
+.shadow h3 {color: whitesmoke;}
+
+/* What is Cancer? Section */
+
+.website { margin: 30px 0 -100px 0; }
+.secondWebsite { margin: -100px 0 0 0; }
+
+.problems .firstRow {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.problems .firstRow .problemsTextWrapper { 
+  flex: 1; 
+  text-align: left; 
+  padding: 20px; 
+}
+
+.problems .firstRow .problemsTextWrapper p,
+.problems .firstRow .problemsTextWrapper h4 { 
+  font-weight: normal;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.problems .firstRow .problemsTextWrapper h2 { 
+  color: var(--red); 
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.problems .firstRow .problemsTextWrapper .check { color: var(--red);}
+.problems .firstRow .problemsImg img { height: 340px;}
+
+.problems .firstRow .problemsImg { 
+  flex: 1; 
+  display: flex;
+  align-items: center;
+}
+
+.branding .firstRow .problemsTextWrapper h2,
+.problems .problemsImg { position: relative; }
+
+.website .problemsImg span,
+.branding .problemsImg span {
+  color: var(--red);
+  position: absolute;
+  font-size: 60px;
+  transform: rotate(20deg);
+  top: 0;
+  margin: -30px 0 0 0;
+}
+
+.container .problemsImg span { font-family: "Pacifico", cursive; }
+.website .problemsImg span { right: 0; }
+
+.branding .problemsImg span {
+  color: var(--blue);
+  transform: rotate(-20deg);
+  left: 0;
+}
+
+.branding .container .problemsTextWrapper h2 { 
+  color: var(--blue);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+ }
+
+ .branding .container .problemsTextWrapper .check { color: var(--blue); }
+
+ /* Shadow Section */
+
+.shadow {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url('/Assets/flores\ wallpaper.jpg') center/cover no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 80px 100px;
+  margin: 70px 0 0 0;
+}
+
+.shadow h3 {color: whitesmoke;}
+
+ /* Ubicanos Section */
+
+.ubicanos { padding: 100px 0 0 0; }
+.ubicanos img { width: 350px;}
+
+.ubicanos .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ubicanos h3 {
+  color: var(--red);
+  margin: 0 0 10px 0;
+}
+
+.ubicanos h2 { color: var(--blue);}
+
+ /* Footer Section */
+
+ footer {
+  transition: ease-in-out 0.3s;
+  padding: 5px 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
+  backdrop-filter: saturate(180%) blur(10px);
+  margin: 30px 0 0 0;
+  text-align: left;
+ }
+
+ footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  color: whitesmoke;
+ }
+
+footer .logoSocials h5 {
+  font-weight: normal;
+  margin: 0 0 0 0;
+}
+
+ footer .tabs ul li a { color: whitesmoke; }
+
+#footerBtn {
+  background: grey;
+  margin: 0 3px 0 0;
+ }
+
+ footer hr {
+  color: white;
+  margin: -0px 0 20px 0;
+ }
+
