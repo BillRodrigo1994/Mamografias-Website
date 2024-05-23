@@ -302,3 +302,14 @@ footer .logoSocials h5 {
   margin: 0 3px 0 0;
  }
 
+ footer .sign {
+  background-color: black;
+  text-align: center;
+  color: white;
+}
+
+footer .sign h5 {
+  font-weight: normal;
+  font-size: 12px; 
+}
+
