@@ -2,7 +2,7 @@
 
 :root {
   --yellow: #e8b349;
-  --blue: #0505FE;
+  --blue: #089DDC;
   --darkblue: #0f2649;
   --green: #5BBF83;
   --red: #FF61AF;
@@ -33,7 +33,7 @@ body {
 }
 
 body { 
-  background-image: url("/assets/white\ background.jpg");
+  background-image: url("/assets/white-background.jpg");
   padding: 200px 0;
   text-align: center;
   background-attachment: fixed;

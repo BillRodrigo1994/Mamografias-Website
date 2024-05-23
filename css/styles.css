@@ -7,7 +7,7 @@
   left: 0;
   z-index: 500;
   transition: ease-in-out 0.3s;
-  padding: 5px 0;
+  padding: 15px 0;
   margin-top: 0;
   background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); 
@@ -30,8 +30,8 @@
 }
 
 .navbar-brand {
-  width: 100px;
-  min-width: 100px;
+  width: 200px;
+  min-width: 200px;
   transition: ease-in-out 0.3s;
   margin-right: auto;
 }
@@ -78,7 +78,7 @@
   font-size: 30px;
   line-height: 1.2;
   margin-bottom: 20px;
-  color: blue;
+  color: var(--blue);
 }
 
 .hero-header i { color: whitesmoke;}
@@ -114,7 +114,7 @@
 /* 1 Shadow Section */
 
 .firstShadow {
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 100%, rgba(255, 255, 255, 0.6) 100%), url('/Assets/background\ 3.jpg') center/cover no-repeat;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.6) 100%, rgba(255, 255, 255, 0.6) 100%), url('/assets/background-3.jpg') center/cover no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -123,6 +123,7 @@
   display: flex;
   justify-content: center;
   gap: 100px;
+  overflow: hidden;
 }
 
 .firstShadow img { width: 400px;}
@@ -167,7 +168,7 @@
 /* 2 shadow Section */
 
 .shadow {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url('/Assets/flores\ wallpaper.jpg') center/cover no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url('/assets/flores-wallpaper.jpg') center/cover no-repeat;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -190,7 +191,7 @@
 
 .problems .firstRow .problemsTextWrapper { 
   flex: 1; 
-  text-align: left; 
+  text-align: justify; 
   padding: 20px; 
 }
 
@@ -245,19 +246,6 @@
 
  .branding .container .problemsTextWrapper .check { color: var(--blue); }
 
- /* Shadow Section */
-
-.shadow {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 100%), url('/Assets/flores\ wallpaper.jpg') center/cover no-repeat;
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
-  padding: 80px 100px;
-  margin: 70px 0 0 0;
-}
-
-.shadow h3 {color: whitesmoke;}
-
  /* Ubicanos Section */
 
 .ubicanos { padding: 100px 0 0 0; }
@@ -267,6 +255,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 50px 50px;
 }
 
 .ubicanos h3 {
@@ -296,20 +285,20 @@
   color: whitesmoke;
  }
 
-footer .logoSocials h5 {
-  font-weight: normal;
-  margin: 0 0 0 0;
-}
+ footer img {
+  width: 200px;
+  min-width: 200px;
+  filter: brightness(0) saturate(100%) invert(100%);
+ }
 
- footer .tabs ul li a { color: whitesmoke; }
+footer .logoSocials h5 {
+  font-weight: bold;
+  margin: 0 0 0 0;
+  font-size: 15px;
+}
 
 #footerBtn {
   background: grey;
   margin: 0 3px 0 0;
- }
-
- footer hr {
-  color: white;
-  margin: -0px 0 20px 0;
  }
 
