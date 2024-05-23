@@ -149,11 +149,11 @@
 
 .bg-header .hero-wrapper {
    width: 450px; 
-   margin: 0 0 0 0;
   }
 
+.bg-header .container { margin: -150px 0 0 0; }
 .bg-header .container img { width: 380px; }
-.bg-header .hOne{ font-size: 55px; }
+.bg-header .hOne{ font-size: 45px; }
 #message { margin: 20px 0 0 0; }
 
 .bg-header .container img { 
