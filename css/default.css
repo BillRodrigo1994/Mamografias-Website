@@ -33,7 +33,7 @@ body {
 }
 
 body { 
-  background-image: url("/assets/white-background.jpg");
+  background-image: url("./Assets/white-background.jpg");
   padding: 200px 0;
   text-align: center;
   background-attachment: fixed;
