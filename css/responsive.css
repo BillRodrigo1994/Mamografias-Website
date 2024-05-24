@@ -145,10 +145,10 @@
    margin: 0 0 0 15px;
   }
 
-.container { padding-right: 1px; padding-left: 1px;}
+.container { padding-right: 0; padding-left: 0;}
 
 .bg-header .hero-wrapper {
-   width: 450px; 
+   width: 100vw; 
    margin: auto;
    display: flex;
    flex-direction: column;

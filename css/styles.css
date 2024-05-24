@@ -136,10 +136,13 @@
 
 .servicios h3 {
   color: var(--red);
-  margin: 0 0 10px 0;
+  margin: 0 0 40px 0;
 }
 
-.servicios h2 { color: var(--blue);}
+.servicios h2 { 
+  color: var(--blue);
+  margin: 0 0 -5px 0;
+}
 
 .servicios .container {
   display: flex;
@@ -260,7 +263,7 @@
 
 .ubicanos h3 {
   color: var(--red);
-  margin: 0 0 10px 0;
+  margin: -25px 0 10px 0;
 }
 
 .ubicanos h2 { color: var(--blue);}
@@ -288,7 +291,6 @@
  footer img {
   width: 200px;
   min-width: 200px;
-  filter: brightness(0) saturate(100%) invert(100%);
  }
 
 footer .logoSocials h5 {
