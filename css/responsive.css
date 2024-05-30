@@ -171,7 +171,10 @@
 }
 
 .folleto section { width: 90%; }
-.folleto section { margin-bottom: -120px; }
+.folleto section { 
+  margin-bottom: -120px; 
+  margin-top: -30px;
+}
 
 
 .problems .websiteKeyWords { 
