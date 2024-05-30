@@ -128,6 +128,17 @@
 
 .firstShadow img { width: 400px;}
 
+/* folleto */
+
+.folleto section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  gap: 50px;
+  margin: auto;
+}
 
 /* Servicios Section */
 
