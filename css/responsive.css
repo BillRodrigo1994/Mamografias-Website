@@ -170,6 +170,9 @@
   margin: 0 0 0 0;
 }
 
+.folleto section { width: 90%; }
+.folleto section { margin-bottom: -120px; }
+
 
 .problems .websiteKeyWords { 
   flex-wrap: wrap; 
